@@ -1,0 +1,19 @@
+<form [formGroup]="angForm">
+        <br/>
+    <input type = "text" 
+          name = "name" 
+          placeholder = "name" 
+          formControlName="name" 
+          [(ngModel)] = name
+          #email>
+   
+    <!-- <input type = "password" 
+          name = "pwd" 
+          placeholder = "password" 
+          formControlName="password" 
+          #password>
+    <br/>
+    <input type = "submit" 
+            value = "submit" 
+            (click) = "onClickSubmit(email.value, password.value)" > -->
+  </form>
